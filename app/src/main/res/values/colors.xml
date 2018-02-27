@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color1">#CBCBCB</color>
+    <color name="text_color2">#A3A7AC</color>
+    <color name="text_color3">#f0000000</color>
+    <color name="text_color4">#707372</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#80000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#d9d9d9</color>
+    <color name="light_gray">#f0eff5</color>
+    <color name="divider_color">#8021E40C</color>
+    <color name="cubic_color">#12ADEF</color>
+    <color name="low_color">#15ADF2</color>
+    <color name="high_color">#C07C7A</color>
+    <color name="blue">#027cfe</color>
+    <color name="green">#00ff00</color>
+    <color name="snow">#8D98B3</color>
+    <color name="rain">#29A308</color>
+    <color name="fog">#59FFFF</color>
+    <color name="shachen">#FD6801</color>
+    <color name="mai">#C99B14</color>
+    <color name="builder">#d87a80</color>
+    <color name="title_bg">#0d5fc2</color>
+    <color name="detail_bg_color">#4897f3</color>
+    
+    <!-- 添加频道的gridview -->
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_disabled_bg">#fffafafa</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 全国热门城市cityId -->
+    <string-array name="nation_hotCity">
+        <item>116.407526,39.904030,101010100,北京,beijing</item>
+		<item>121.473701,31.230416,101020100,上海,shanghai</item>
+		<item>117.200983,39.084158,101030100,天津,tianjin</item>
+		<item>106.551557,29.563010,101040100,重庆,chongqin</item>
+		<item>126.536260,45.802270,101050101,黑龙江,heilongj</item>
+		<item>125.323544,43.817072,101060101,吉林,jilin</item>
+		<item>123.431475,41.805698,101070101,辽宁,liaoning</item>
+		<item>111.749181,40.842585,101080101,内蒙古,neimengg</item>
+		<item>114.514860,38.042307,101090101,河北,hebei</item>
+		<item>112.548879,37.870590,101100101,山西,shanxi</item>
+		<item>108.940175,34.341568,101110101,陕西,shan-xi</item>
+		<item>117.120497,36.650997,101120101,山东,shandong</item>
+		<item>87.616848,43.825592,101130101,新疆,xinjiang</item>
+		<item>91.140856,29.645554,101140101,西藏,xizang</item>
+		<item>101.778228,36.617144,101150101,青海,qinghai</item>
+		<item>103.834304,36.061089,101160101,甘肃,gansu</item>
+		<item>106.230909,38.487194,101170101,宁夏,ningxia</item>
+		<item>113.625368,34.746600,101180101,河南,henan</item>
+		<item>118.796877,32.060255,101190101,江苏,jiangsu</item>
+		<item>114.305393,30.593099,101200101,湖北,hubei</item>
+		<item>30.274085,19.333710,101210101,浙江,zhejiang</item>
+		<item>117.227239,31.820587,101220101,安徽,anhui</item>
+		<item>119.296494,26.074508,101230101,福建,fujian</item>
+		<item>115.858121,28.683213,101240101,江西,jiangxi</item>
+		<item>112.938814,28.228209,101250101,湖南,hunan</item>
+		<item>106.630154,26.647661,101260101,贵州,guizhou</item>
+		<item>104.066541,30.572269,101270101,四川,sichuan</item>
+		<item>23.129163,18.892920,101280101,广东,guangdon</item>
+		<item>102.832892,24.880095,101290101,云南,yunnan</item>
+		<item>108.366129,22.817239,101300101,广西,guangxi</item>
+		<item>110.328859,20.030793,101310101,海南,hainan</item>
+		<item>22.396428,321.110260,101320101,香港,hongkong</item>
+		<item>113.544202,22.201874,101330101,澳门,macao</item>
+		<item>25.091075,32.288563,101340101,台湾,taiwan</item>	
+    </string-array>
+    
+    <!-- 天津热门城市cityId -->
+    <string-array name="tianJin_hotCity">
+        <item>117.200983,39.084158,101030100,天津,tianjin</item>		
+		<item>117.044414,39.384060,101030200,武清,wuqing</item>		
+		<item>117.309819,39.717575,101030300,宝坻,baodi</item>		
+		<item>117.314351,39.086661,101030400,东丽,dongli</item>		
+		<item>117.008874,39.141145,101030500,西青,xiqing</item>		
+		<item>117.132440,39.221484,101030600,北辰,beichen</item>		
+		<item>117.824898,39.330613,101030700,宁河,ninghe</item>		
+		<item>116.930540,38.932656,101030900,静海,jinghai</item>		
+		<item>117.357396,38.937857,101031000,津南,jinnan</item>		
+		<item>117.640960,39.027720,101031100,滨海新区,binhaixinqu</item>	
+		<item>117.408280,40.045865,101031400,蓟县,jixian</item>	
+    </string-array>
+    
+    <!-- 雷达站点 -->
+	<string-array name="tianjin_radars">
+	    <item>天津塘沽,JC_RADAR_AZ9220_JB,1</item>
+		<item>北京,JC_RADAR_AZ9010_JB,0</item>
+		<item>秦皇岛,JC_RADAR_AZ9335_JB,0</item>
+		<item>沧州,JC_RADAR_AZ9317_JB,0</item>
+		<item>张家口,JC_RADAR_AZ9313_JB,0</item>
+		<item>承德,JC_RADAR_AZ9314_JB,0</item>
+	</string-array>
+	
+	<!-- 天津站点名称、站号 -->
+    <string-array name="tianJin_station">
+        <item>54622,津南咸水沽</item>
+        <item>A3367,津南葛沽</item>
+		<item>A3366,津南北闸口</item>
+		<item>A3365,津南双闸</item>
+		<item>A3302,津南八里台</item>
+		<item>A3363,津南小站</item>
+		<item>A3362,津南双港</item>
+		<item>A3361,津南双桥河</item>
+		<item>A3364,津南农业园区</item>
+		<item>A3301,津南辛庄</item>	
+    </string-array>
+    
+    <!-- 天津站点名称、站号 -->
+    <string-array name="tianJin_district">
+        <item>0,葛沽</item>
+        <item>1,咸水\n沽</item>
+		<item>2,辛庄</item>	
+		<item>3,八里\n台</item>
+		<item>4,双桥\n河</item>
+		<item>5,双港</item>
+		<item>6,小站</item>
+		<item>7,农业\n园区</item>
+		<item>8,双闸</item>
+		<item>9,北闸\n口</item>
+    </string-array>
+	
+    
+    <!-- umeng -->
+    <string-array name="repeatingUnit">
+        <item>年</item>
+        <item>月</item>
+        <item selected="true">日</item>
+        <item>小时</item>
+        <item>分钟</item>
+        <item>秒</item>
+    </string-array>
+    <string-array name="specialDay">
+        <item></item>
+        <item>元旦</item>
+        <item>除夕</item>
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>清明节</item>
+        <item>劳动节</item>
+        <item>端午节</item>
+        <item>七夕节</item>
+        <item>中秋节</item>
+        <item>国庆节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="playVibrate">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playLights">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playSound">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="screenOn">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <!-- umeng -->
+
+</resources>

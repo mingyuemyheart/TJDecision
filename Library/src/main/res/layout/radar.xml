@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/reTitle"
+        layout="@layout/layout_title" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/reTitle"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/llSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:background="@color/translucent"
+        android:gravity="center_vertical"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/ivPlay"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#90000000"
+            android:padding="10dp"
+            android:src="@drawable/iv_play" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:maxHeight="2dip"
+            android:minHeight="2dip"
+            android:progress="0"
+            android:progressDrawable="@drawable/seekbar_drawable"
+            android:thumb="@drawable/seekbar_thumb" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/level_5" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_margin="30dp"
+        android:cacheColorHint="@color/transparent"
+        android:columnWidth="100dip"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:horizontalSpacing="3dip"
+        android:listSelector="@color/transparent"
+        android:numColumns="4"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dip" />
+
+</RelativeLayout>

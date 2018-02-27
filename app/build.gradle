@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    //png图片命名带有数字则编译不通过使用一下声明
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+    //apache使用声明
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "cxwl.shawn.tj.decision"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 1171
+        versionName "1.1.8"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':Indicatorlibrary')
+    implementation project(':Library')
+}

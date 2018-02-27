@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray" >
+
+    <include
+        android:id="@+id/reTitle"
+        layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:id="@+id/llSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_below="@+id/reTitle"
+        android:background="@color/white"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/llExchange"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iv_exchange" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llStart"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/ivStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/route_start" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/route_start_point"
+                    android:textColor="@color/text_color2"
+                    android:textSize="@dimen/level_4" />
+
+                <TextView
+                    android:id="@+id/tvStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:textColor="@color/start"
+                    android:textSize="@dimen/level_4" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:background="#30000000" />
+
+            <LinearLayout
+                android:id="@+id/llEnd"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/ivEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/route_end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/route_end_point"
+                    android:textColor="@color/text_color2"
+                    android:textSize="@dimen/level_4" />
+
+                <TextView
+                    android:id="@+id/tvEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:textColor="@color/end"
+                    android:textSize="@dimen/level_4" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/llSearch"
+        android:background="#30000000"
+        android:visibility="gone" />
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/reDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/title_bg"
+        android:paddingBottom="5dp"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/reLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:id="@+id/ivLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iv_location_white" />
+
+            <TextView
+                android:id="@+id/tvPosition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/ivLocation"
+                android:textColor="@color/white"
+                android:textSize="@dimen/level_4" />
+            
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tvPosition"
+                android:textColor="@color/white"
+                android:textSize="@dimen/level_4" />
+
+            <TextView
+                android:id="@+id/tvVisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/level_4" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/reLocation"
+            android:background="#30ffffff" />
+
+        <LinearLayout
+            android:id="@+id/llTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider"
+            android:gravity="bottom|center" >
+
+            <TextView
+                android:id="@+id/tvTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/tvTempUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/level_5" />
+
+            <ImageView
+                android:id="@+id/ivPhenomenon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llRainPressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llTemp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/reRain"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/corner_left_right_rain" >
+
+                    <TextView
+                        android:id="@+id/tvRainFall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/level_3" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/iv_circle_rainfall" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/reRain"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/rainfall"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/level_4" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/rePressure"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/corner_left_right_rain"
+                    android:paddingLeft="30dp" >
+
+                    <TextView
+                        android:id="@+id/tvPressure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/level_3" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/iv_circle_pressure" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rePressure"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/pressure"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/level_4" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHumidityWind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llRainPressure"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/reHumidity"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/corner_left_right_rain" >
+
+                    <TextView
+                        android:id="@+id/tvHumidity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/level_3" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/iv_circle_humidity" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/reHumidity"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/humidity"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/level_4" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/reWind"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/corner_left_right_rain" >
+
+                    <TextView
+                        android:id="@+id/tvWind"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/level_3" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/iv_circle_wind" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/reWind"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/wind"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/level_4" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

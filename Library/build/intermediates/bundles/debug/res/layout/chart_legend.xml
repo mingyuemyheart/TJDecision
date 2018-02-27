@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#22000000"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/chart_tropical_low"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="热带低压"
+        android:textColor="@android:color/white"
+        android:textSize="12dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/chart_tropical_storm"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="热带风暴"
+        android:textColor="@android:color/white"
+        android:textSize="12dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/chart_strong_tropical_storm"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="强热带风暴"
+        android:textColor="@android:color/white"
+        android:textSize="12dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/chart_typhoon_legend"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="台风"
+        android:textColor="@android:color/white"
+        android:textSize="12dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/chart_strong_typhoon"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="强台风"
+        android:textColor="@android:color/white"
+        android:textSize="12dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/chart_supper_strong_typhoon"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="超强台风"
+        android:textColor="@android:color/white"
+        android:textSize="12dip" />
+
+    <!--
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主要城市"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/violet"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ff6e7d8d"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10级风圈"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/coffee"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ff6e7d8d"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7级风圈"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/deepviolet"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ff6e7d8d"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登陆地点"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/login_point"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ff6e7d8d"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="预警信息"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/alert"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ff6e7d8d"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台风主要影响区域"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/green_rect"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ff6e7d8d"/>
+    -->
+
+    <ImageView
+        android:id="@+id/legend_down_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:src="@drawable/chart_down"
+        android:visibility="gone" />
+
+</LinearLayout>

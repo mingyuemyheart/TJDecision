@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/reTitle"
+        layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.DeviceDefault.ProgressBar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <GridView
+        android:visibility="gone"
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:cacheColorHint="@color/transparent"
+        android:columnWidth="100dip"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:horizontalSpacing="3dip"
+        android:listSelector="@color/transparent"
+        android:numColumns="4"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dip" />
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_jinnan">
+        
+        <TextView 
+            android:id="@+id/tvShuanggang"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:translationX="-70dp"
+            android:translationY="-100dp"
+            android:text="双港"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+        <TextView 
+            android:id="@+id/tvXinzhuang"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="-38dp"
+            android:translationY="-78dp"
+            android:layout_centerInParent="true"
+            android:text="辛庄"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+        <TextView 
+            android:id="@+id/tvXianshuigu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="5dp"
+            android:translationY="-50dp"
+            android:layout_centerInParent="true"
+            android:text="咸水\n沽"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+        <TextView 
+            android:id="@+id/tvShuangqiaohe"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="45dp"
+            android:translationY="-45dp"
+            android:layout_centerInParent="true"
+            android:text="双桥\n河"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+        <TextView 
+            android:id="@+id/tvGegu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="95dp"
+            android:translationY="-43dp"
+            android:layout_centerInParent="true"
+            android:text="葛沽"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district_press"/>
+        
+        <TextView 
+            android:id="@+id/tvBeizhakou"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="15dp"
+            android:translationY="0dp"
+            android:layout_centerInParent="true"
+            android:text="北闸\n口"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+        <TextView 
+            android:id="@+id/tvXiaozhan"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="40dp"
+            android:translationY="35dp"
+            android:layout_centerInParent="true"
+            android:text="小站"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+        <TextView 
+            android:id="@+id/tvShuangzha"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="-15dp"
+            android:translationY="65dp"
+            android:layout_centerInParent="true"
+            android:text="双闸"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+        <TextView 
+            android:id="@+id/tvBalitai"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="-65dp"
+            android:translationY="-5dp"
+            android:layout_centerInParent="true"
+            android:text="八里\n台"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+        <TextView 
+            android:id="@+id/tvNongyeyuan"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:translationX="-30dp"
+            android:translationY="20dp"
+            android:layout_centerInParent="true"
+            android:text="农业\n园区"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/level_6"
+            android:background="@drawable/iv_district"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/shawn/AndroidStudioProjects/TJDecision/Library/src/main/assets"><file name="xizang_district.json" path="/Users/shawn/AndroidStudioProjects/TJDecision/Library/src/main/assets/xizang_district.json"/></source><source path="/Users/shawn/AndroidStudioProjects/TJDecision/Library/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/shawn/AndroidStudioProjects/TJDecision/Library/src/debug/assets"/></dataSet></merger>

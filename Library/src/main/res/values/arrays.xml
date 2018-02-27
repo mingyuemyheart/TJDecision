@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 预警类型 -->
+    <string-array name="warningType">
+        <item>01,台风</item>
+		<item>02,暴雨</item>
+		<item>03,暴雪</item>
+		<item>04,寒潮</item>
+		<item>05,大风</item>
+		<item>06,沙尘暴</item>
+		<item>07,高温</item>
+		<item>08,干旱</item>
+		<item>09,雷电</item>
+		<item>10,冰雹</item>
+		<item>11,霜冻</item>
+		<item>12,大雾</item>
+		<item>13,霾</item>
+		<item>14,道路结冰</item>
+		<item>91,寒冷</item>
+		<item>92,灰霾</item>
+		<item>93,雷雨大风</item>
+		<item>94,森林火险</item>
+		<item>95,降温</item>
+		<item>96,道路冰雪</item>
+		<item>97,干热风</item>
+		<item>98,低温</item>
+		<item>99,冰冻</item>
+    </string-array>
+    
+	<!-- 预警颜色 -->
+	<string-array name="warningColor">
+        <item>01,蓝色</item>
+		<item>02,黄色</item>
+		<item>03,橙色</item>
+		<item>04,红色</item>
+    </string-array>
+    
+
+    <!-- umeng -->
+    <string-array name="repeatingUnit">
+        <item>年</item>
+        <item>月</item>
+        <item selected="true">日</item>
+        <item>小时</item>
+        <item>分钟</item>
+        <item>秒</item>
+    </string-array>
+    <string-array name="specialDay">
+        <item></item>
+        <item>元旦</item>
+        <item>除夕</item>
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>清明节</item>
+        <item>劳动节</item>
+        <item>端午节</item>
+        <item>七夕节</item>
+        <item>中秋节</item>
+        <item>国庆节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="playVibrate">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playLights">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playSound">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="screenOn">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <!-- umeng -->
+
+</resources>

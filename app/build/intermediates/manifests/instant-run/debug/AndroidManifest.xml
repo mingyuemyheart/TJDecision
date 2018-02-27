@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cxwl.shawn.tj.decision"
+    android:versionCode="1171"
+    android:versionName="1.1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.baselibrary.common.PgyApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/iv_icon"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="1652560d9f8ba9d6e7dfcee9b7c252a3" />
+
+        <!-- 定位需要的服务 -->
+        <service android:name="com.amap.api.location.APSService" />
+
+        <!-- 蒲公英自动更新 -->
+        <meta-data
+            android:name="PGYER_APPID"
+            android:value="dcc5d0154cde521cfcbb356c4a28b5af" />
+
+        <activity
+            android:name="com.tj.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tj.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.SettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.CityActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.WeatherDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.QuickPaperActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.UniqueActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.HeadWarningActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.DistrictForecastActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.QuestionActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.FactCheckActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.FactCheckDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.ServiceActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tj.WaitWindActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 第三方类库名称 -->
+
+
+        <!-- 热点新闻 -->
+        <activity
+            android:name="com.baselibrary.news.NewsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 沿途天气 -->
+        <activity
+            android:name="com.baselibrary.routeweather.RouteWeatherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.baselibrary.routeweather.RouteSearchActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 雷达图 -->
+        <activity
+            android:name="com.baselibrary.radar.RadarActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 卫星云图 -->
+        <activity
+            android:name="com.baselibrary.cloud.CloudActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 意见反馈 -->
+        <activity
+            android:name="com.baselibrary.feedback.FeedbackActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 台风路径 -->
+        <activity
+            android:name="com.baselibrary.typhoon.TyphoonRouteActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 下一场雨 -->
+        <activity
+            android:name="com.baselibrary.minute.MinuteFallActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 实景天气 -->
+        <activity
+            android:name="com.baselibrary.video.FactWeatherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.baselibrary.video.FactWeatherDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 天气上报 -->
+        <activity
+            android:name="com.baselibrary.report.ReportWeatherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 生活指数 -->
+        <activity
+            android:name="com.baselibrary.index.IndexActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 城市查询 -->
+        <activity
+            android:name="com.baselibrary.city.CityActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 天气详情 -->
+        <activity
+            android:name="com.baselibrary.weather.WeatherDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 预警 -->
+        <activity
+            android:name="com.baselibrary.warning.WarningDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 空气质量 -->
+        <activity
+            android:name="com.baselibrary.smartwebview.WebViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 天气趋势 -->
+        <activity
+            android:name="com.baselibrary.trend.TrendDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- pdf -->
+        <activity
+            android:name="com.baselibrary.smartwebview.PDFActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 第三方类库名称 -->
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="cxwl.shawn.tj.decision.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

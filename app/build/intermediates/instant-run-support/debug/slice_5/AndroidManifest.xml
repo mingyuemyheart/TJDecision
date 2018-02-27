@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="cxwl.shawn.tj.decision"
+      android:versionCode="1171"
+      android:versionName="1.1.8"
+      split="lib_slice_5_apk">
+</manifest>

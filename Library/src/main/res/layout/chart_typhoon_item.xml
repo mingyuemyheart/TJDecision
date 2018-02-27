@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/typhoon_item_bg"
+    android:orientation="vertical"
+    android:paddingLeft="10dip" >
+
+    <TextView
+        android:id="@+id/typhoons_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2014"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="2015年05月12日 16:07"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/typhoon_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dip"
+        android:text="一号海鸥台风"
+        android:textColor="@color/white" />
+
+</LinearLayout>
