@@ -107,30 +107,30 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/commons-io-2.6.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-utils-25.1.1" level="project" />
-    <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.1.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/MapApiServices.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/SocialSDK_WeiXin_1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-annotations:25.1.1@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:appcompat-v7-25.1.1" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-ui-25.1.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/umeng_social_sdk.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/vudroid-pdfview-1.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-media-compat-25.1.1" level="project" />
-    <orderEntry type="library" name="com.android.support:support-compat-25.1.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/Android_Map_2.5.1.20150827.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/ChinaWeatherAPI.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/bitmcap-cache-1.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/SocialSDK_WeiXin_2.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/httpmime-4.1.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/scene-final.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/SocialSDK_sms.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/pgyer_sdk_2.2.2.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/AMap_Location_V2.4.0_20160308.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-vector-drawable-25.1.1" level="project" />
-    <orderEntry type="library" name="com.android.support:support-v4-25.1.1" level="project" />
-    <orderEntry type="library" name="com.android.support:support-fragment-25.1.1" level="project" />
-    <orderEntry type="library" name="org.apache.http.legacy-android-26" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/SocialSDK_sms.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-fragment-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/SocialSDK_WeiXin_2.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/pgyer_sdk_2.2.2.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/SocialSDK_WeiXin_1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v4-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/MapApiServices.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/bitmcap-cache-1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/vudroid-pdfview-1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/commons-io-2.6.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/AMap_Location_V2.4.0_20160308.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/ChinaWeatherAPI.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/httpmime-4.1.3.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:25.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-compat-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/umeng_social_sdk.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/scene-final.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shawn/AndroidStudioProjects/TJDecision/Library/libs/Android_Map_2.5.1.20150827.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-25.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.http.legacy-android-26" level="project" />
   </component>
 </module>

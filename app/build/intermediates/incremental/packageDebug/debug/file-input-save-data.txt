@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Feb 27 13:30:15 CST 2018
+#Fri Jun 01 09:39:59 CST 2018
 56.path=lib/armeabi/libamapv304ex.so
 5.base=/Users/shawn/AndroidStudioProjects/TJDecision/app/build/intermediates/assets/debug
 42.base=/Users/shawn/AndroidStudioProjects/TJDecision/app/build/intermediates/transforms/mergeJniLibs/debug/0

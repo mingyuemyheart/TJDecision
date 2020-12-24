@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="playLights">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playSound">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playVibrate">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="repeatingUnit">
+        <item>年</item>
+        <item>月</item>
+        <item selected="true">日</item>
+        <item>小时</item>
+        <item>分钟</item>
+        <item>秒</item>
+    </string-array>
+    <string-array name="screenOn">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="specialDay">
+        <item/>
+        <item>元旦</item>
+        <item>除夕</item>
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>清明节</item>
+        <item>劳动节</item>
+        <item>端午节</item>
+        <item>七夕节</item>
+        <item>中秋节</item>
+        <item>国庆节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="warningColor">
+        <item>01,蓝色</item>
+		<item>02,黄色</item>
+		<item>03,橙色</item>
+		<item>04,红色</item>
+    </string-array>
+    <string-array name="warningType">
+        <item>01,台风</item>
+		<item>02,暴雨</item>
+		<item>03,暴雪</item>
+		<item>04,寒潮</item>
+		<item>05,大风</item>
+		<item>06,沙尘暴</item>
+		<item>07,高温</item>
+		<item>08,干旱</item>
+		<item>09,雷电</item>
+		<item>10,冰雹</item>
+		<item>11,霜冻</item>
+		<item>12,大雾</item>
+		<item>13,霾</item>
+		<item>14,道路结冰</item>
+		<item>91,寒冷</item>
+		<item>92,灰霾</item>
+		<item>93,雷雨大风</item>
+		<item>94,森林火险</item>
+		<item>95,降温</item>
+		<item>96,道路冰雪</item>
+		<item>97,干热风</item>
+		<item>98,低温</item>
+		<item>99,冰冻</item>
+    </string-array>
+    <attr format="reference" name="circularProgressBarStyle"/>
+    <attr name="position">
+        <enum name="left_top" value="0"/>
+        <enum name="right_top" value="1"/>
+        <enum name="right_bottom" value="2"/>
+        <enum name="left_bottom" value="3"/>
+    </attr>
+    <color name="aqi0">#abd338</color>
+    <color name="aqi1">#ffc739</color>
+    <color name="aqi2">#faa531</color>
+    <color name="aqi3">#e2574c</color>
+    <color name="aqi4">#98374a</color>
+    <color name="aqi5">#57252e</color>
+    <color name="black">#000000</color>
+    <color name="blue">#027cfe</color>
+    <color name="builder">#d87a80</color>
+    <color name="cell_pressed">#353C48</color>
+    <color name="cubic_color">#12ADEF</color>
+    <color name="detail_bg_color">#4897f3</color>
+    <color name="divider_color">#8021E40C</color>
+    <color name="end">#ffef7171</color>
+    <color name="fog">#59FFFF</color>
+    <color name="gray">#888888</color>
+    <color name="green">#00ff00</color>
+    <color name="high_color">#C07C7A</color>
+    <color name="light_blue">#c1e7ff</color>
+    <color name="light_gray">#cccccc</color>
+    <color name="light_pink">#ffd5d5</color>
+    <color name="low_color">#15ADF2</color>
+    <color name="mai">#C99B14</color>
+    <color name="orange">#fd8612</color>
+    <color name="rain">#29A308</color>
+    <color name="red">#FF0033</color>
+    <color name="route_search_input">#ff474747</color>
+    <color name="route_search_location">#ff098edb</color>
+    <color name="shachen">#FD6801</color>
+    <color name="snow">#8D98B3</color>
+    <color name="start">#ff4cd964</color>
+    <color name="subscribe_item_disabled_bg">#fffafafa</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="text_color1">#CBCBCB</color>
+    <color name="text_color2">#A3A7AC</color>
+    <color name="text_color3">#f0000000</color>
+    <color name="text_color4">#8A8A8A</color>
+    <color name="title_bg">#2559A4</color>
+    <color name="translucent">#60000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="typhoon_bg">#f3758c97</color>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+    <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_divider">#E6E6E6</color>
+    <color name="umeng_socialize_edit_bg">#C4C4C4</color>
+    <color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+    <color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+    <color name="umeng_socialize_list_item_textcolor">#333333</color>
+    <color name="umeng_socialize_text_friends_list">#959696</color>
+    <color name="umeng_socialize_text_share_content">#666666</color>
+    <color name="umeng_socialize_text_time">#999999</color>
+    <color name="umeng_socialize_text_title">#464f61</color>
+    <color name="umeng_socialize_text_ucenter">#595959</color>
+    <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#fff139</color>
+    <declare-styleable name="ArcMenu"><attr name="position"/><attr name="radius"/></declare-styleable>
+    <declare-styleable name="CircularProgressBar"><attr format="dimension" name="stroke_width"/><attr format="float" name="progress"/><attr format="float" name="marker_progress"/><attr format="color" name="progress_color"/><attr format="color" name="progress_background_color"/><attr format="boolean" name="thumb_visible"/><attr format="boolean" name="marker_visible"/><attr name="android:gravity"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alphabet_size">12dip</dimen>
+    <dimen name="level_1">20dip</dimen>
+    <dimen name="level_2">18dip</dimen>
+    <dimen name="level_3">16dip</dimen>
+    <dimen name="level_4">14dip</dimen>
+    <dimen name="level_5">12dip</dimen>
+    <dimen name="level_6">10dip</dimen>
+    <dimen name="typhoon_height">250dp</dimen>
+    <dimen name="typhoon_width">230dp</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="actual_weather">您看到的天气是：</string>
+    <string name="already_new_version">已经是最新版本！</string>
+    <string name="app_name">基本类库</string>
+    <string name="aqi0">优</string>
+    <string name="aqi1">良</string>
+    <string name="aqi2">轻度污染</string>
+    <string name="aqi3">中度污染</string>
+    <string name="aqi4">重度污染</string>
+    <string name="aqi5">严重污染</string>
+    <string name="auto_update">更新提醒</string>
+    <string name="back">返回</string>
+    <string name="chart_baipa">(百帕)\n</string>
+    <string name="chart_biggest_speed">最大风速：</string>
+    <string name="chart_center_pressure">中心气压：</string>
+    <string name="chart_china_forecast"> 中国预报\n</string>
+    <string name="chart_day">日</string>
+    <string name="chart_di">第</string>
+    <string name="chart_download_prompt">正在使用蜂窝移动网络，继续加载可能会消耗流量，是否继续？</string>
+    <string name="chart_east">东</string>
+    <string name="chart_get_faild">获取台风数据失败</string>
+    <string name="chart_go_on">继续</string>
+    <string name="chart_haotaifeng">号台风</string>
+    <string name="chart_hour">时</string>
+    <string name="chart_kilometer">(公里)\n</string>
+    <string name="chart_loaded">已加载</string>
+    <string name="chart_loading">加载中...</string>
+    <string name="chart_month">月</string>
+    <string name="chart_north">北</string>
+    <string name="chart_north_east">东北</string>
+    <string name="chart_north_west">西北</string>
+    <string name="chart_propt">提示</string>
+    <string name="chart_radius1">7级风圈半径：</string>
+    <string name="chart_radius2">10级风圈半径：</string>
+    <string name="chart_south">南</string>
+    <string name="chart_south_east">东南</string>
+    <string name="chart_south_west">西南</string>
+    <string name="chart_speed1">(米/秒)\n</string>
+    <string name="chart_speed2">(公里/小时)\n</string>
+    <string name="chart_time1">yyyy年MM月dd日 kk时</string>
+    <string name="chart_time11111">时间：</string>
+    <string name="chart_west">西</string>
+    <string name="chart_year">年</string>
+    <string name="chart_yidong_direct">移动方向：</string>
+    <string name="chart_yidong_speed">移动速度：</string>
+    <string name="current_fact">当前实况</string>
+    <string name="current_phe">当前天气是：</string>
+    <string name="current_position">当前位置：</string>
+    <string name="data_from_phone">（数据来源于手机传感器，仅供参考）</string>
+    <string name="day">日</string>
+    <string name="five">五</string>
+    <string name="four">四</string>
+    <string name="from">自</string>
+    <string name="guizhou_province">贵州</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="highest_temp">日最高气温</string>
+    <string name="hot_national">全国热门</string>
+    <string name="hot_province">省内热门</string>
+    <string name="hour">时</string>
+    <string name="humidity">湿度：</string>
+    <string name="input_city_name">请输入城市名</string>
+    <string name="is_loading">正在加载...</string>
+    <string name="is_uploading">正在上传...</string>
+    <string name="last_page">已经是最后一页</string>
+    <string name="line_24h">24\n小\n时\n警\n戒\n线</string>
+    <string name="line_48h">48\n小\n时\n警\n戒\n线</string>
+    <string name="lowest_temp">日最低气温</string>
+    <string name="lx_no_fall">连续无降水日数</string>
+    <string name="lx_no_mai">连续霾日数</string>
+    <string name="map">地图</string>
+    <string name="max_fall">日最大降水量</string>
+    <string name="max_speed">日最大风速</string>
+    <string name="minute">分</string>
+    <string name="month">月</string>
+    <string name="new_version">最新版本：</string>
+    <string name="no_data">无数据~~~</string>
+    <string name="no_radar_data">该雷达站暂无数据</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="no_statics">未统计</string>
+    <string name="no_typhoon">当前无台风</string>
+    <string name="no_warning">辖区暂无预警信息发布</string>
+    <string name="one">一</string>
+    <string name="pressure">气压</string>
+    <string name="publish">发布</string>
+    <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中…</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <string name="rainfall">降水量</string>
+    <string name="rank_list"> 天气要素排行榜首</string>
+    <string name="re_humidity">相对湿度</string>
+    <string name="refresh">刷新</string>
+    <string name="route">路线</string>
+    <string name="route_current_position">当前位置</string>
+    <string name="route_end_point">终点：</string>
+    <string name="route_start_point">起点：</string>
+    <string name="select_end_point">选择终点</string>
+    <string name="select_start_point">选择起点</string>
+    <string name="seven">日</string>
+    <string name="share">分享</string>
+    <string name="six">六</string>
+    <string name="submit">提交</string>
+    <string name="submit_success">提交成功，感谢您的宝贵建议！</string>
+    <string name="table">列表</string>
+    <string name="text_size">字号大小</string>
+    <string name="three">三</string>
+    <string name="tianjin_city">天津市</string>
+    <string name="tiao">条</string>
+    <string name="title_pressure">气压：</string>
+    <string name="to">至</string>
+    <string name="today">今天</string>
+    <string name="trend_humidity">过去24小时相对湿度实况：（%）</string>
+    <string name="trend_pressure">过去24小时气压实况（hPa）</string>
+    <string name="trend_rain">过去24小时降水量实况（mm）</string>
+    <string name="trend_wind">过去24小时风速实况（m/s）</string>
+    <string name="two">二</string>
+    <string name="typhoon_influnce">主要影响区域</string>
+    <string name="typhoon_level1">热带低压</string>
+    <string name="typhoon_level2">热带风暴</string>
+    <string name="typhoon_level3">强热带风暴</string>
+    <string name="typhoon_level4">台风</string>
+    <string name="typhoon_level5">强台风</string>
+    <string name="typhoon_level6">超强台风</string>
+    <string name="typhoon_login">登陆地点</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_socialize_back" translatable="false">返回</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_comment" translatable="false">评论</string>
+    <string name="umeng_socialize_comment_detail" translatable="false">评论详情</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_friends" translatable="false">关注的好友</string>
+    <string name="umeng_socialize_img_des"/>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_mail">邮件</string>
+    <string name="umeng_socialize_msg_hor" translatable="false">小时前</string>
+    <string name="umeng_socialize_msg_min" translatable="false">分钟前</string>
+    <string name="umeng_socialize_msg_sec" translatable="false">秒前</string>
+    <string name="umeng_socialize_near_At" translatable="false">最近\@的好友</string>
+    <string name="umeng_socialize_network_break_alert" translatable="false">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_send" translatable="false">发布</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， 
+												（二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。
+												（三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_sina">新浪</string>
+    <string name="umeng_socialize_sms">短信</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_alipay_key">支付宝</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧…</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_evernote_key">印象笔记</string>
+    <string name="umeng_socialize_text_facebook_key">facebook</string>
+    <string name="umeng_socialize_text_flickr_key">Flickr</string>
+    <string name="umeng_socialize_text_foursquare_key">Foursquare</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <string name="umeng_socialize_text_googleplus_key">GooglePlus</string>
+    <string name="umeng_socialize_text_instagram_key">instagram</string>
+    <string name="umeng_socialize_text_kakao_key">Kakao Talk</string>
+    <string name="umeng_socialize_text_laiwangdynamic_key">来往动态</string>
+    <string name="umeng_socialize_text_line_key">LINE</string>
+    <string name="umeng_socialize_text_linkedin_key">Linkedin</string>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_pinterest_key">pinterest</string>
+    <string name="umeng_socialize_text_pocket_key">pocket</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_tumblr_key">Tumblr</string>
+    <string name="umeng_socialize_text_twitter_key">twitter</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_text_whatsapp_key">WhatsApp</string>
+    <string name="umeng_socialize_text_ydnote_key">有道云笔记</string>
+    <string name="umeng_socialize_text_yixin_key">易信</string>
+    <string name="umeng_socialize_text_yixincircle_key">易信朋友圈</string>
+    <string name="umeng_socialize_tip_blacklist" translatable="false">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed" translatable="false">登录失败…</string>
+    <string name="umeng_socialize_ucenter_login_title_guide" translatable="false">游客登录</string>
+    <string name="umeng_socialize_ucenter_login_title_platform" translatable="false">登录帐号</string>
+    <string name="unit_degree">℃</string>
+    <string name="unit_hPa">hPa</string>
+    <string name="unit_hour">小时</string>
+    <string name="unit_km">km</string>
+    <string name="unit_m">m</string>
+    <string name="unit_minute">分钟</string>
+    <string name="unit_mm">mm</string>
+    <string name="unit_percent">%</string>
+    <string name="unit_speed">m/s</string>
+    <string name="update">更新</string>
+    <string name="update_later">以后再说</string>
+    <string name="update_log">更新日志：</string>
+    <string name="update_right_now">立即更新</string>
+    <string name="upload_current_weather">上传现在的天空</string>
+    <string name="upload_failed">上传失败</string>
+    <string name="upload_phenomenon">提交成功！信息已送达中央气象台，感谢您的分享！</string>
+    <string name="visible">能见度：</string>
+    <string name="warning">预警</string>
+    <string name="warning_detail">预警详情</string>
+    <string name="warning_guide">预警指南：\n\n</string>
+    <string name="weather0">晴</string>
+    <string name="weather1">多云</string>
+    <string name="weather10">暴雨</string>
+    <string name="weather11">大暴雨</string>
+    <string name="weather12">特大暴雨</string>
+    <string name="weather13">阵雪</string>
+    <string name="weather14">小雪</string>
+    <string name="weather15">中雪</string>
+    <string name="weather16">大雪</string>
+    <string name="weather17">暴雪</string>
+    <string name="weather18">雾</string>
+    <string name="weather19">冻雨</string>
+    <string name="weather2">阴</string>
+    <string name="weather20">沙尘暴</string>
+    <string name="weather21">小雨-中雨</string>
+    <string name="weather22">中雨-大雨</string>
+    <string name="weather23">大雨-暴雨</string>
+    <string name="weather24">暴雨-大暴雨</string>
+    <string name="weather25">大暴雨-特大暴雨</string>
+    <string name="weather26">小雪-中雪</string>
+    <string name="weather27">中雪-大雪</string>
+    <string name="weather28">大雪-暴雪</string>
+    <string name="weather29">浮尘</string>
+    <string name="weather3">阵雨</string>
+    <string name="weather30">扬沙</string>
+    <string name="weather31">强沙尘暴</string>
+    <string name="weather32">浓雾</string>
+    <string name="weather33">雪</string>
+    <string name="weather4">雷阵雨</string>
+    <string name="weather49">强浓雾</string>
+    <string name="weather5">雨夹冰雹</string>
+    <string name="weather53">霾</string>
+    <string name="weather54">中度霾</string>
+    <string name="weather55">重度霾</string>
+    <string name="weather56">严重霾</string>
+    <string name="weather57">大雾</string>
+    <string name="weather58">特强浓雾</string>
+    <string name="weather6">雨夹雪</string>
+    <string name="weather7">小雨</string>
+    <string name="weather8">中雨</string>
+    <string name="weather9">大雨</string>
+    <string name="weather_quality">空气质量：</string>
+    <string name="week">周</string>
+    <string name="weekly_forecast">一周预报</string>
+    <string name="wind">风</string>
+    <string name="wind_dir0">无持续风向</string>
+    <string name="wind_dir1">东北风</string>
+    <string name="wind_dir2">东风</string>
+    <string name="wind_dir3">东南风</string>
+    <string name="wind_dir4">南风</string>
+    <string name="wind_dir5">西南风</string>
+    <string name="wind_dir6">西风</string>
+    <string name="wind_dir7">西北风</string>
+    <string name="wind_dir8">北风</string>
+    <string name="wind_dir9">旋转风</string>
+    <string name="wind_force0">微风</string>
+    <string name="wind_force1">1级</string>
+    <string name="wind_force10">10级</string>
+    <string name="wind_force11">11级</string>
+    <string name="wind_force12">12级</string>
+    <string name="wind_force2">2级</string>
+    <string name="wind_force3">3级</string>
+    <string name="wind_force4">4级</string>
+    <string name="wind_force5">5级</string>
+    <string name="wind_force6">6级</string>
+    <string name="wind_force7">7级</string>
+    <string name="wind_force8">8级</string>
+    <string name="wind_force9">9级</string>
+    <string name="wind_force_dir">风力风向</string>
+    <string name="write_feedback">欢迎写下您宝贵的建议...</string>
+    <string name="xizang_province">西藏</string>
+    <string name="year">年</string>
+    <style name="ACPLDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"/>
+    <style name="Theme.UMDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_im">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:text">999</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="umeng_socialize_action_bar_itemlayout">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="umeng_socialize_dialog_anim_fade">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_fade_out</item>
+    </style>
+    <style name="umeng_socialize_dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_slide_out_from_bottom</item>
+    </style>
+    <style name="umeng_socialize_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/umeng_socialize_divider</item>
+    </style>
+    <style name="umeng_socialize_edit_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="umeng_socialize_list_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog_anim" parent="@style/umeng_socialize_popup_dialog">
+        <item name="android:windowAnimationStyle">@style/umeng_socialize_dialog_animations</item>
+    </style>
+    <style name="umeng_socialize_shareboard_animation">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_shareboard_animation_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_shareboard_animation_out</item>
+    </style>
+</resources>
